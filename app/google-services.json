@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "216738000612",
+    "firebase_url": "https://my-wallet-admin.firebaseio.com",
+    "project_id": "my-wallet-admin",
+    "storage_bucket": "my-wallet-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216738000612:android:7f9170ddbcd0281862c6f1",
+        "android_client_info": {
+          "package_name": "com.seclob.mywalletdis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216738000612-qsvd5bhvf41dahqifb4a1hmu0rfm2u1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl3SUybQVdyz5AnIz4-SJQfnxL4n6W0z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216738000612-qsvd5bhvf41dahqifb4a1hmu0rfm2u1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

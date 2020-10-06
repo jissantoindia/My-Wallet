@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seclob.mywalletdis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TrdActivity"></activity>
+        <activity android:name=".TrmActivity" />
+        <activity android:name=".StatementActivity" />
+        <activity android:name=".MobileRechargeDetailsActivity" />
+        <activity android:name=".DthRefreshActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".OtpverificationActivity" />
+        <activity android:name=".AddclientActivity" />
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".WalletActivity" />
+        <activity android:name=".KsebActivity" />
+        <activity android:name=".DthActivity" />
+        <activity android:name=".MobilerechargesActivity" />
+        <activity android:name=".ClientActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
